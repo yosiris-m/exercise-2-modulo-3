@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermarkets>
+    <supermarket>
+        <name>lidl</name>
+        <direction>
+            <street>real</street>
+            <number>25</number>
+            <postalCode>28981</postalCode>
+            <city>parla</city>
+            <state>madrid</state>
+        </direction>
+        <geoLocation>
+            <longitude>-3.7541056</longitude>
+            <latitude>40.2376299</latitude>
+        </geoLocation>
+        <contact>
+            <telephone>+43 435 66 66 78</telephone>
+            <email>lidl@ld.es</email>
+            <web>https://www.lidl.es</web>
+        </contact>
+        <products>
+            <product>
+                <id>1</id>
+                <name>lentejas</name>
+                <price>2</price>
+                <weight>
+                    <gr>1000</gr>
+                </weight>
+                <description>lentejas pardinas</description>
+                <origen>españa</origen>
+                <expirationDate>2023-12-22</expirationDate>
+                <bought>true</bought>
+            </product>
+            <product>
+                <id>2</id>
+                <name>avena</name>
+                <price>1</price>
+                <weight>
+                    <gr>800</gr>
+                </weight>
+                <description>avena molida integral</description>
+                <origen>andalucia</origen>
+                <expirationDate>2025-10-06</expirationDate>
+                <bought>false</bought>
+            </product>
+            <product>
+                <id>3</id>
+                <name>café</name>
+                <price>2.10</price>
+                <weight>
+                    <gr>500</gr>
+                </weight>
+                <description>café molido</description>
+                <origen>colombia</origen>
+                <expirationDate>2024-04-12</expirationDate>
+                <bought>false</bought>
+            </product>
+        </products>
+        <offers>
+            <offer>
+                <id>4</id>
+                <name>chocolate</name>
+                <price>2.00</price>
+                <discountedPrice>1.40</discountedPrice>
+                <weight>
+                    <gr>200</gr>
+                </weight>
+                <description>chocalete negro 85% cacao</description>
+                <origen>ecuador</origen>
+                <expirationDate>2022-02-11</expirationDate>
+            </offer>
+            <offer>
+                <id>5</id>
+                <name>lentejas</name>
+                <price>2.00</price>
+                <discountedPrice>1</discountedPrice>
+                <weight>
+                    <gr>1000</gr>
+                </weight>
+                <description>lentejas pardinas</description>
+                <origen>españa</origen>
+                <expirationDate>2023-12-22</expirationDate>
+            </offer>
+        </offers>
+    </supermarket>
+    <supermarket>
+        <name>jumbo</name>
+        <address>
+            <street>la estacion</street>
+            <number>10</number>
+            <postalCode>28981</postalCode>
+            <city>parla</city>
+            <state>madrid</state>
+        </address>
+        <geoLocation>
+            <longitude>-3.6541058</longitude>
+            <latitude>41.2376299</latitude>
+        </geoLocation>
+        <contact>
+            <telephone>+34 345 66 77 98</telephone>
+            <email>tienda@jumbo.com</email>
+            <web>https://www.jumbo.es</web>
+        </contact>
+        <products>
+            <product>
+                <id>1</id>
+                <name>leche</name>
+                <price>6.45</price>
+                <weight>
+                    <gr>1000</gr>
+                </weight>
+                <description>leche entera en polvo</description>
+                <origen>asturia</origen>
+                <expirationDate>2023-05-02</expirationDate>
+                <bought>false</bought>
+            </product>
+            <product>
+                <id>2</id>
+                <name>lentejas</name>
+                <price>1.8</price>
+                <weight>
+                    <gr>1000</gr>
+                </weight>
+                <description>lentejas pardinas</description>
+                <origen>españa</origen>
+                <expirationDate>2023-10-10</expirationDate>
+            </product>
+            <product>
+                <id>3</id>
+                <name>avena</name>
+                <price>0.75</price>
+                <weight>
+                    <gr>500</gr>
+                </weight>
+                <description>avena molida integral</description>
+                <origen>canada</origen>
+                <expirationDate>2025-06-07</expirationDate>
+                <bought>true</bought>
+            </product>
+            <product>
+                <id>4</id>
+                <name>chocolate</name>
+                <price>1.2</price>
+                <weight>
+                    <gr>200</gr>
+                </weight>
+                <description>chocalete negro 85% cacao</description>
+                <origen>africa</origen>
+                <expirationDate>2025-07-10</expirationDate>
+            </product>
+        </products>
+        <offers>
+            <offer>
+                <id>5</id>
+                <name>lentejas</name>
+                <price>1.8</price>
+                <discountedPrice>0.85</discountedPrice>
+                <weight>
+                    <gr>1000</gr>
+                </weight>
+                <description>lentejas pardinas</description>
+                <origen>españa</origen>
+                <expirationDate>2023-10-05</expirationDate>
+            </offer>
+        </offers>
+    </supermarket>
+</supermarkets>
