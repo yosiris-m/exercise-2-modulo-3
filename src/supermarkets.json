@@ -1,0 +1,168 @@
+{
+  "supermarkets": [
+    {
+      "name": "lidl",
+      "address": {
+        "street": "real",
+        "number": 25,
+        "postalCode": 28981,
+        "city": "parla",
+        "state": "madrid"
+      },
+      "geoLocation": {
+        "longitude": -3.7541056,
+        "latitude": 40.2376299
+      },
+      "contact": {
+        "telephone": "+43 435 66 66 78",
+        "email": "lidl@ld.es",
+        "web": "https://www.lidl.es"
+      },
+      "products": [
+        {
+          "id": 1,
+          "name": "lentejas",
+          "price": 2,
+          "weight": {
+            "gr": 1000
+          },
+          "description": "lentejas pardinas",
+          "origin": "españa",
+          "expirationDate": "2023-12-22",
+          "bought": true
+        },
+        {
+          "id": 2,
+          "name": "avena",
+          "price": 1,
+          "weight": {
+            "gr": 800
+          },
+          "description": "avena molida integral",
+          "origen": "andalucia",
+          "expirationDate": "2025-10-06",
+          "bought": false
+        },
+        {
+          "id": 3,
+          "name": "café",
+          "price": 2.10,
+          "weight": {
+            "gr": 500
+          },
+          "description": "café molido",
+          "origen": "colombia",
+          "expirationDate": "2024-04-12",
+          "bought": false
+        }
+      ],
+      "offers": [
+        {
+          "id": 4,
+          "name": "chocolate",
+          "price": 2.00,
+          "discountedPrice": 1.40,
+          "weight": {
+            "gr": 200
+          },
+          "description": "chocolate negro 85% cacao",
+          "origen": "ecuador",
+          "expirationDate": "2022-02-11"
+        },
+        {
+          "id": 5,
+          "name": "lentejas",
+          "price": 2.00,
+          "discountedPrice": 1,
+          "weight": {
+            "gr": 1000
+          },
+          "description": "lentejas pardinas",
+          "origin": "españa",
+          "expirationDate": "2023-12-22"
+        }
+      ]
+    },
+    {
+      "name": "jumbo",
+      "address": {
+        "street": "la estacion",
+        "number": 10,
+        "postalCode": 28981,
+        "city": "parla",
+        "state": "madrid"
+      },
+      "geoLocation": {
+        "longitude": -3.6541058,
+        "latitude": 41.2376299
+      },
+      "contact": {
+        "telephone": "+34 345 66 77 98",
+        "email": "tienda@jumbo.com",
+        "web": "https://www.jumbo.es"
+      },
+      "products": [
+        {
+          "id": 1,
+          "name": "leche",
+          "price": 6.45,
+          "weight": {
+            "gr": 1000
+          },
+          "description": "leche entera en polvo",
+          "origen": "asturia",
+          "expirationDate": "2023-05-02",
+          "bought": false
+        },
+        {
+          "id": 2,
+          "name": "lentejas",
+          "price": 1.8,
+          "weight": {
+            "gr": 1000
+          },
+          "description": "lentejas pardinas",
+          "origen": "españa",
+          "expirationDate": "2023-10-10"
+        },
+        {
+          "id": 3,
+          "name": "avena",
+          "price": 0.75,
+          "weight": {
+            "gr": 500
+          },
+          "description": "avena molida integral",
+          "origen": "canada",
+          "expirationDate": "2025-06-07",
+          "bought": true
+        },
+        {
+          "id": 4,
+          "name": "chocolate",
+          "price": 1.2,
+          "weight": {
+            "gr": 200
+          },
+          "description": "chocalete negro 85% cacao",
+          "origen": "africa",
+          "expirationDate": "2025-07-10"
+        }
+      ],
+      "offers": [
+        {
+          "id": 5,
+          "name": "lentejas",
+          "price": 1.8,
+          "discountedPrice": 0.85,
+          "weight": {
+            "gr": 1000
+          },
+          "description": "lentejas pardinas",
+          "origen": "españa",
+          "expirationDate": "2023-10-05"
+        }
+      ]
+    }
+  ]
+}
